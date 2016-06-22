@@ -1,0 +1,19 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es2015",
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "noResolve": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "filesGlob": [
+    "./src/**/*.ts*",
+    "./typings/index.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
