@@ -188,14 +188,14 @@ class Page implements IWidget<{}> {
     }
 
     public attach(element: Element, props: IAdWidgetProps): IAttachedWidget<IAdWidgetProps> {
-        element.innerHTML = this.getHTML(props);
+        // element.innerHTML = this.getHTML(props);
 
         return {
             update: (props: IAdWidgetProps) => {
-                element.innerHTML = this.getHTML(props);
+                // element.innerHTML = this.getHTML(props);
             },
             detach: () => {
-                element.innerHTML = '';
+                // element.innerHTML = '';
             },
         };
     }
@@ -204,7 +204,7 @@ class Page implements IWidget<{}> {
         return {
             subscribe: (data, end) => {
                 setTimeout(() => {
-                    data(this.getHTML(props));
+                    // data(this.getHTML(props));
                     end();
                 })
             },
