@@ -1,13 +1,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "module": "es2015",
-    "target": "es2015",
-    "jsx": "preserve",
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
     "noImplicitAny": true,
     "noResolve": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true
   },
   "filesGlob": [
     "./src/**/*.ts*",

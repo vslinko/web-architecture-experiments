@@ -63,7 +63,6 @@
     "linebreak-style": [true, "LF"],
     "max-line-length": [true, 120],
     "no-default-export": false,
-    "no-mergable-namespace": true,
     "no-require-imports": false,
     "no-trailing-whitespace": true,
     "object-literal-sort-keys": false,
