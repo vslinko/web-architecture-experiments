@@ -10,14 +10,16 @@ const mainPage = new MainPage();
 app.use(express.static(path.join(__dirname, '..', '..', 'dist')));
 
 app.get('/', (req, res) => {
-    const stream = mainPage.render({form: {}, ad: {}});
+  const stream = mainPage.render({
+    ad: {},
+  });
 
-    stream.subscribe(
-        (data) => res.write(data),
-        () => res.send()
-    );
+  stream.subscribe(
+    (data) => res.write(data),
+    () => res.send(),
+  );
 });
 
 app.listen(3000, () => {
-    console.log('Listening 3000');
+  console.log('Listening 3000');
 });

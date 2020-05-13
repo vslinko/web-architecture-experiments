@@ -1,5 +1,7 @@
-import {MainPage} from '../shared/main_page';
+import { MainPage } from '../shared/main_page';
 
 const mainPage = new MainPage();
 
-mainPage.attach(document.body, {form: {}, ad: {}});
+mainPage.attach(document.body, {
+  ad: {},
+});

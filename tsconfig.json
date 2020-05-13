@@ -1,20 +1,8 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
     "jsx": "react",
-    "noImplicitAny": true,
-    "noResolve": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "strictNullChecks": true
-  },
-  "filesGlob": [
-    "./src/**/*.ts*",
-    "./typings/index.d.ts"
-  ],
-  "atom": {
-    "rewriteTsconfig": false
+    "strict": true
   }
 }
